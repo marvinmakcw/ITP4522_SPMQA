@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApp2.media.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2.media"
+        mc:Ignorable="d"
+        Title="Test" Height="500" Width="600">
+    <Grid>
+        <MediaElement Name="myMediaElement1" Source="media/Bear.wmv" 
+          LoadedBehavior="Play"
+          Margin="50,200,286,100"
+                      Stretch="Fill"
+                      />
+        <Polygon Fill="Blue" Stroke="Red" StrokeThickness="6"
+              Points="50, 50, 300, 50 300, 200, 50, 200
+                 
+" />
+        <Canvas Height="150" Width="250" Margin="50, 50, 350, 350">
+
+            <Ellipse
+      Fill="Green"   Height="150" Width="250"
+      Canvas.Left="0"
+      StrokeThickness="5"
+      Stroke="Purple"/>
+
+
+        </Canvas>
+
+    </Grid>
+</Window>

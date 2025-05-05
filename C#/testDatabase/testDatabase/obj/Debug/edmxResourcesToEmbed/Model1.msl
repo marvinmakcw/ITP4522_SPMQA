@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="sql6494233ModelStoreContainer" CdmEntityContainer="sql6494233Entities">
+    <EntitySetMapping Name="lstStaffs">
+      <EntityTypeMapping TypeName="sql6494233Model.lstStaff">
+        <MappingFragment StoreEntitySet="lstStaff">
+          <ScalarProperty Name="staffId" ColumnName="staffId" />
+          <ScalarProperty Name="staffFName" ColumnName="staffFName" />
+          <ScalarProperty Name="staffLName" ColumnName="staffLName" />
+          <ScalarProperty Name="staffGndr" ColumnName="staffGndr" />
+          <ScalarProperty Name="staffTel" ColumnName="staffTel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

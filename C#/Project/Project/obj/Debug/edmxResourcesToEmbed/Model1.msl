@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="sql6494233ModelStoreContainer" CdmEntityContainer="sql6494233Entities">
+    <EntitySetMapping Name="LstDepts">
+      <EntityTypeMapping TypeName="sql6494233Model.LstDept">
+        <MappingFragment StoreEntitySet="LstDept">
+          <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+          <ScalarProperty Name="DeptName" ColumnName="DeptName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LstItems">
+      <EntityTypeMapping TypeName="sql6494233Model.LstItem">
+        <MappingFragment StoreEntitySet="LstItem">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="ItemDescr" ColumnName="ItemDescr" />
+          <ScalarProperty Name="ItemAmt" ColumnName="ItemAmt" />
+          <ScalarProperty Name="ItemCat" ColumnName="ItemCat" />
+          <ScalarProperty Name="SupID" ColumnName="SupID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LstRoles">
+      <EntityTypeMapping TypeName="sql6494233Model.LstRole">
+        <MappingFragment StoreEntitySet="LstRole">
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LstStaffs">
+      <EntityTypeMapping TypeName="sql6494233Model.LstStaff">
+        <MappingFragment StoreEntitySet="LstStaff">
+          <ScalarProperty Name="StaffID" ColumnName="StaffID" />
+          <ScalarProperty Name="StaffFName" ColumnName="StaffFName" />
+          <ScalarProperty Name="StaffLName" ColumnName="StaffLName" />
+          <ScalarProperty Name="StaffGndr" ColumnName="StaffGndr" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LstStores">
+      <EntityTypeMapping TypeName="sql6494233Model.LstStore">
+        <MappingFragment StoreEntitySet="LstStore">
+          <ScalarProperty Name="StoID" ColumnName="StoID" />
+          <ScalarProperty Name="StoAddress" ColumnName="StoAddress" />
+          <ScalarProperty Name="StoTel" ColumnName="StoTel" />
+          <ScalarProperty Name="MgrID" ColumnName="MgrID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LstSuppliers">
+      <EntityTypeMapping TypeName="sql6494233Model.LstSupplier">
+        <MappingFragment StoreEntitySet="LstSupplier">
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="SupplierName" ColumnName="SupplierName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LstTests">
+      <EntityTypeMapping TypeName="sql6494233Model.LstTest">
+        <MappingFragment StoreEntitySet="LstTest">
+          <ScalarProperty Name="staffId" ColumnName="staffId" />
+          <ScalarProperty Name="staffFName" ColumnName="staffFName" />
+          <ScalarProperty Name="staffLName" ColumnName="staffLName" />
+          <ScalarProperty Name="staffGndr" ColumnName="staffGndr" />
+          <ScalarProperty Name="staffTel" ColumnName="staffTel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RcdSales">
+      <EntityTypeMapping TypeName="sql6494233Model.RcdSale">
+        <MappingFragment StoreEntitySet="RcdSales">
+          <ScalarProperty Name="SalesID" ColumnName="SalesID" />
+          <ScalarProperty Name="StoID" ColumnName="StoID" />
+          <ScalarProperty Name="StaffID" ColumnName="StaffID" />
+          <ScalarProperty Name="PaidAmt" ColumnName="PaidAmt" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="ExpDate" ColumnName="ExpDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RcdSalesItems">
+      <EntityTypeMapping TypeName="sql6494233Model.RcdSalesItem">
+        <MappingFragment StoreEntitySet="RcdSalesItem">
+          <ScalarProperty Name="SalesID" ColumnName="SalesID" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

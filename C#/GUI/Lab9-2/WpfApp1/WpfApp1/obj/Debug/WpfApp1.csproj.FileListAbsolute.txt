@@ -1,0 +1,16 @@
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Marvin\C#\GUI\Lab9-2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

@@ -1,0 +1,13 @@
+D:\Marvin\C#\Project\Project\bin\Debug\Project.exe.config
+D:\Marvin\C#\Project\Project\bin\Debug\Project.exe
+D:\Marvin\C#\Project\Project\bin\Debug\Project.pdb
+D:\Marvin\C#\Project\Project\bin\Debug\EntityFramework.dll
+D:\Marvin\C#\Project\Project\bin\Debug\EntityFramework.xml
+D:\Marvin\C#\Project\Project\obj\Debug\Project.csproj.AssemblyReference.cache
+D:\Marvin\C#\Project\Project\obj\Debug\Project.Form1.resources
+D:\Marvin\C#\Project\Project\obj\Debug\Project.Properties.Resources.resources
+D:\Marvin\C#\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
+D:\Marvin\C#\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+D:\Marvin\C#\Project\Project\obj\Debug\Project.csproj.CopyComplete
+D:\Marvin\C#\Project\Project\obj\Debug\Project.exe
+D:\Marvin\C#\Project\Project\obj\Debug\Project.pdb

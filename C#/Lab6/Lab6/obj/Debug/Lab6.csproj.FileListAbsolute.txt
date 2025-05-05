@@ -1,0 +1,13 @@
+D:\Marvin\C#\Lab6\Lab6\bin\Debug\Lab6.exe.config
+D:\Marvin\C#\Lab6\Lab6\bin\Debug\Lab6.exe
+D:\Marvin\C#\Lab6\Lab6\bin\Debug\Lab6.pdb
+D:\Marvin\C#\Lab6\Lab6\obj\Debug\Lab6.csproj.AssemblyReference.cache
+D:\Marvin\C#\Lab6\Lab6\obj\Debug\Lab6.Form1.resources
+D:\Marvin\C#\Lab6\Lab6\obj\Debug\Lab6.Properties.Resources.resources
+D:\Marvin\C#\Lab6\Lab6\obj\Debug\Lab6.csproj.GenerateResource.cache
+D:\Marvin\C#\Lab6\Lab6\obj\Debug\Lab6.csproj.CoreCompileInputs.cache
+D:\Marvin\C#\Lab6\Lab6\obj\Debug\Lab6.exe
+D:\Marvin\C#\Lab6\Lab6\obj\Debug\Lab6.pdb
+D:\Marvin\C#\Lab6\Lab6\obj\Debug\Lab6.frmSearch.resources
+D:\Marvin\C#\Lab6\Lab6\obj\Debug\Lab6.Form2.resources
+D:\Marvin\C#\Lab6\Lab6\obj\Debug\Lab6.Form3.resources

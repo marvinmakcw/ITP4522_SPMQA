@@ -1,0 +1,11 @@
+D:\Marvin\C#\Lab03\Lab03\bin\Debug\Lab03.exe.config
+D:\Marvin\C#\Lab03\Lab03\bin\Debug\Lab03.exe
+D:\Marvin\C#\Lab03\Lab03\bin\Debug\Lab03.pdb
+D:\Marvin\C#\Lab03\Lab03\obj\Debug\Lab03.csproj.AssemblyReference.cache
+D:\Marvin\C#\Lab03\Lab03\obj\Debug\Lab03.csproj.SuggestedBindingRedirects.cache
+D:\Marvin\C#\Lab03\Lab03\obj\Debug\Lab03.Form1.resources
+D:\Marvin\C#\Lab03\Lab03\obj\Debug\Lab03.Properties.Resources.resources
+D:\Marvin\C#\Lab03\Lab03\obj\Debug\Lab03.csproj.GenerateResource.cache
+D:\Marvin\C#\Lab03\Lab03\obj\Debug\Lab03.csproj.CoreCompileInputs.cache
+D:\Marvin\C#\Lab03\Lab03\obj\Debug\Lab03.exe
+D:\Marvin\C#\Lab03\Lab03\obj\Debug\Lab03.pdb

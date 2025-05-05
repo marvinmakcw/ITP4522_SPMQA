@@ -1,0 +1,17 @@
+D:\Marvin\C#\Lab1\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.exe
+D:\Marvin\C#\Lab1\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.deps.json
+D:\Marvin\C#\Lab1\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.runtimeconfig.json
+D:\Marvin\C#\Lab1\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.dll
+D:\Marvin\C#\Lab1\Lab1\Lab1\bin\Debug\net6.0-windows\Lab1.pdb
+D:\Marvin\C#\Lab1\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.csproj.AssemblyReference.cache
+D:\Marvin\C#\Lab1\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.Form1.resources
+D:\Marvin\C#\Lab1\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.csproj.GenerateResource.cache
+D:\Marvin\C#\Lab1\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Marvin\C#\Lab1\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.AssemblyInfoInputs.cache
+D:\Marvin\C#\Lab1\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.AssemblyInfo.cs
+D:\Marvin\C#\Lab1\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.csproj.CoreCompileInputs.cache
+D:\Marvin\C#\Lab1\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.dll
+D:\Marvin\C#\Lab1\Lab1\Lab1\obj\Debug\net6.0-windows\refint\Lab1.dll
+D:\Marvin\C#\Lab1\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.pdb
+D:\Marvin\C#\Lab1\Lab1\Lab1\obj\Debug\net6.0-windows\Lab1.genruntimeconfig.cache
+D:\Marvin\C#\Lab1\Lab1\Lab1\obj\Debug\net6.0-windows\ref\Lab1.dll

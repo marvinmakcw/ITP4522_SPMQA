@@ -1,0 +1,13 @@
+D:\Marvin\C#\DBTutorial1\DBTutorial1\bin\Debug\DBTutorial1.exe.config
+D:\Marvin\C#\DBTutorial1\DBTutorial1\bin\Debug\DBTutorial1.exe
+D:\Marvin\C#\DBTutorial1\DBTutorial1\bin\Debug\DBTutorial1.pdb
+D:\Marvin\C#\DBTutorial1\DBTutorial1\bin\Debug\EntityFramework.dll
+D:\Marvin\C#\DBTutorial1\DBTutorial1\bin\Debug\EntityFramework.xml
+D:\Marvin\C#\DBTutorial1\DBTutorial1\obj\Debug\DBTutorial1.csproj.AssemblyReference.cache
+D:\Marvin\C#\DBTutorial1\DBTutorial1\obj\Debug\DBTutorial1.Form1.resources
+D:\Marvin\C#\DBTutorial1\DBTutorial1\obj\Debug\DBTutorial1.Properties.Resources.resources
+D:\Marvin\C#\DBTutorial1\DBTutorial1\obj\Debug\DBTutorial1.csproj.GenerateResource.cache
+D:\Marvin\C#\DBTutorial1\DBTutorial1\obj\Debug\DBTutorial1.csproj.CoreCompileInputs.cache
+D:\Marvin\C#\DBTutorial1\DBTutorial1\obj\Debug\DBTutorial1.csproj.CopyComplete
+D:\Marvin\C#\DBTutorial1\DBTutorial1\obj\Debug\DBTutorial1.exe
+D:\Marvin\C#\DBTutorial1\DBTutorial1\obj\Debug\DBTutorial1.pdb

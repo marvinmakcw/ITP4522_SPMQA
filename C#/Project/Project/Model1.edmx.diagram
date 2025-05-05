@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="87a9c1f18ee04709a9d819480532d6bb" Name="Diagram1">
+        <EntityTypeShape EntityType="sql6494233Model.LstDept" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sql6494233Model.LstItem" Width="1.5" PointX="9.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sql6494233Model.LstRole" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sql6494233Model.LstStaff" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="sql6494233Model.LstStore" Width="1.5" PointX="7.5" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sql6494233Model.LstSupplier" Width="1.5" PointX="7.5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sql6494233Model.LstTest" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sql6494233Model.RcdSale" Width="1.5" PointX="9.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="sql6494233Model.RcdSalesItem" Width="1.5" PointX="12" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="sql6494233Model.FKLstRole671192" ManuallyRouted="false" />
+        <AssociationConnector Association="sql6494233Model.FKLstStaff14943" ManuallyRouted="false" />
+        <AssociationConnector Association="sql6494233Model.FKLstItem757115" ManuallyRouted="false" />
+        <AssociationConnector Association="sql6494233Model.FKRcdSalesIt995612" ManuallyRouted="false" />
+        <AssociationConnector Association="sql6494233Model.FKLstStaff231912" ManuallyRouted="false" />
+        <AssociationConnector Association="sql6494233Model.FKLstStore579795" ManuallyRouted="false" />
+        <AssociationConnector Association="sql6494233Model.FKRcdSales640508" ManuallyRouted="false" />
+        <AssociationConnector Association="sql6494233Model.FKRcdSales384621" ManuallyRouted="false" />
+        <AssociationConnector Association="sql6494233Model.FKRcdSalesIt747511" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

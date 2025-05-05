@@ -1,0 +1,13 @@
+D:\Marvin\C#\testDatabase\testDatabase\bin\Debug\testDatabase.exe.config
+D:\Marvin\C#\testDatabase\testDatabase\bin\Debug\testDatabase.exe
+D:\Marvin\C#\testDatabase\testDatabase\bin\Debug\testDatabase.pdb
+D:\Marvin\C#\testDatabase\testDatabase\bin\Debug\EntityFramework.dll
+D:\Marvin\C#\testDatabase\testDatabase\bin\Debug\EntityFramework.xml
+D:\Marvin\C#\testDatabase\testDatabase\obj\Debug\testDatabase.csproj.AssemblyReference.cache
+D:\Marvin\C#\testDatabase\testDatabase\obj\Debug\testDatabase.Form1.resources
+D:\Marvin\C#\testDatabase\testDatabase\obj\Debug\testDatabase.Properties.Resources.resources
+D:\Marvin\C#\testDatabase\testDatabase\obj\Debug\testDatabase.csproj.GenerateResource.cache
+D:\Marvin\C#\testDatabase\testDatabase\obj\Debug\testDatabase.csproj.CoreCompileInputs.cache
+D:\Marvin\C#\testDatabase\testDatabase\obj\Debug\testDatabase.csproj.CopyComplete
+D:\Marvin\C#\testDatabase\testDatabase\obj\Debug\testDatabase.exe
+D:\Marvin\C#\testDatabase\testDatabase\obj\Debug\testDatabase.pdb

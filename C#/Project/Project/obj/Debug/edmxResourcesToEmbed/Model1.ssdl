@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sql6494233Model.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="LstDept">
+    <Key>
+      <PropertyRef Name="DeptID" />
+    </Key>
+    <Property Name="DeptID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DeptName" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LstItem">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="ItemName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="ItemDescr" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ItemAmt" Type="int" Nullable="false" />
+    <Property Name="ItemCat" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="SupID" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LstRole">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="RoleName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DeptID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Salary" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LstStaff">
+    <Key>
+      <PropertyRef Name="StaffID" />
+    </Key>
+    <Property Name="StaffID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="StaffFName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="StaffLName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="StaffGndr" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="Tel" Type="int" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DeptID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="RoleID" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LstStore">
+    <Key>
+      <PropertyRef Name="StoID" />
+    </Key>
+    <Property Name="StoID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="StoAddress" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="StoTel" Type="int" Nullable="false" />
+    <Property Name="MgrID" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LstSupplier">
+    <Key>
+      <PropertyRef Name="SupplierID" />
+    </Key>
+    <Property Name="SupplierID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="SupplierName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Tel" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LstTest">
+    <Key>
+      <PropertyRef Name="staffId" />
+    </Key>
+    <Property Name="staffId" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="staffFName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="staffLName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="staffGndr" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="staffTel" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RcdSales">
+    <Key>
+      <PropertyRef Name="SalesID" />
+    </Key>
+    <Property Name="SalesID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="StoID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="StaffID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PaidAmt" Type="int" Nullable="false" />
+    <Property Name="Date" Type="date" Nullable="false" />
+    <Property Name="Time" Type="time" Precision="0" Nullable="false" />
+    <Property Name="ExpDate" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RcdSalesItem">
+    <Key>
+      <PropertyRef Name="SalesID" />
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="SalesID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="ItemID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Qty" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FKLstItem757115">
+    <End Role="LstSupplier" Type="Self.LstSupplier" Multiplicity="1" />
+    <End Role="LstItem" Type="Self.LstItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LstSupplier">
+        <PropertyRef Name="SupplierID" />
+      </Principal>
+      <Dependent Role="LstItem">
+        <PropertyRef Name="SupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKLstRole671192">
+    <End Role="LstDept" Type="Self.LstDept" Multiplicity="1" />
+    <End Role="LstRole" Type="Self.LstRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LstDept">
+        <PropertyRef Name="DeptID" />
+      </Principal>
+      <Dependent Role="LstRole">
+        <PropertyRef Name="DeptID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKLstStaff14943">
+    <End Role="LstDept" Type="Self.LstDept" Multiplicity="1" />
+    <End Role="LstStaff" Type="Self.LstStaff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LstDept">
+        <PropertyRef Name="DeptID" />
+      </Principal>
+      <Dependent Role="LstStaff">
+        <PropertyRef Name="DeptID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKLstStaff231912">
+    <End Role="LstRole" Type="Self.LstRole" Multiplicity="1" />
+    <End Role="LstStaff" Type="Self.LstStaff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LstRole">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="LstStaff">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKLstStore579795">
+    <End Role="LstStaff" Type="Self.LstStaff" Multiplicity="1" />
+    <End Role="LstStore" Type="Self.LstStore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LstStaff">
+        <PropertyRef Name="StaffID" />
+      </Principal>
+      <Dependent Role="LstStore">
+        <PropertyRef Name="MgrID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKRcdSales384621">
+    <End Role="LstStore" Type="Self.LstStore" Multiplicity="1" />
+    <End Role="RcdSales" Type="Self.RcdSales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LstStore">
+        <PropertyRef Name="StoID" />
+      </Principal>
+      <Dependent Role="RcdSales">
+        <PropertyRef Name="StoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKRcdSales640508">
+    <End Role="LstStaff" Type="Self.LstStaff" Multiplicity="1" />
+    <End Role="RcdSales" Type="Self.RcdSales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LstStaff">
+        <PropertyRef Name="StaffID" />
+      </Principal>
+      <Dependent Role="RcdSales">
+        <PropertyRef Name="StaffID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKRcdSalesIt747511">
+    <End Role="RcdSales" Type="Self.RcdSales" Multiplicity="1" />
+    <End Role="RcdSalesItem" Type="Self.RcdSalesItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RcdSales">
+        <PropertyRef Name="SalesID" />
+      </Principal>
+      <Dependent Role="RcdSalesItem">
+        <PropertyRef Name="SalesID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKRcdSalesIt995612">
+    <End Role="LstItem" Type="Self.LstItem" Multiplicity="1" />
+    <End Role="RcdSalesItem" Type="Self.RcdSalesItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LstItem">
+        <PropertyRef Name="ItemID" />
+      </Principal>
+      <Dependent Role="RcdSalesItem">
+        <PropertyRef Name="ItemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="sql6494233ModelStoreContainer">
+    <EntitySet Name="LstDept" EntityType="Self.LstDept" Schema="sql6494233" store:Type="Tables" />
+    <EntitySet Name="LstItem" EntityType="Self.LstItem" Schema="sql6494233" store:Type="Tables" />
+    <EntitySet Name="LstRole" EntityType="Self.LstRole" Schema="sql6494233" store:Type="Tables" />
+    <EntitySet Name="LstStaff" EntityType="Self.LstStaff" Schema="sql6494233" store:Type="Tables" />
+    <EntitySet Name="LstStore" EntityType="Self.LstStore" Schema="sql6494233" store:Type="Tables" />
+    <EntitySet Name="LstSupplier" EntityType="Self.LstSupplier" Schema="sql6494233" store:Type="Tables" />
+    <EntitySet Name="LstTest" EntityType="Self.LstTest" Schema="sql6494233" store:Type="Tables" />
+    <EntitySet Name="RcdSales" EntityType="Self.RcdSales" Schema="sql6494233" store:Type="Tables" />
+    <EntitySet Name="RcdSalesItem" EntityType="Self.RcdSalesItem" Schema="sql6494233" store:Type="Tables" />
+    <AssociationSet Name="FKLstItem757115" Association="Self.FKLstItem757115">
+      <End Role="LstSupplier" EntitySet="LstSupplier" />
+      <End Role="LstItem" EntitySet="LstItem" />
+    </AssociationSet>
+    <AssociationSet Name="FKLstRole671192" Association="Self.FKLstRole671192">
+      <End Role="LstDept" EntitySet="LstDept" />
+      <End Role="LstRole" EntitySet="LstRole" />
+    </AssociationSet>
+    <AssociationSet Name="FKLstStaff14943" Association="Self.FKLstStaff14943">
+      <End Role="LstDept" EntitySet="LstDept" />
+      <End Role="LstStaff" EntitySet="LstStaff" />
+    </AssociationSet>
+    <AssociationSet Name="FKLstStaff231912" Association="Self.FKLstStaff231912">
+      <End Role="LstRole" EntitySet="LstRole" />
+      <End Role="LstStaff" EntitySet="LstStaff" />
+    </AssociationSet>
+    <AssociationSet Name="FKLstStore579795" Association="Self.FKLstStore579795">
+      <End Role="LstStaff" EntitySet="LstStaff" />
+      <End Role="LstStore" EntitySet="LstStore" />
+    </AssociationSet>
+    <AssociationSet Name="FKRcdSales384621" Association="Self.FKRcdSales384621">
+      <End Role="LstStore" EntitySet="LstStore" />
+      <End Role="RcdSales" EntitySet="RcdSales" />
+    </AssociationSet>
+    <AssociationSet Name="FKRcdSales640508" Association="Self.FKRcdSales640508">
+      <End Role="LstStaff" EntitySet="LstStaff" />
+      <End Role="RcdSales" EntitySet="RcdSales" />
+    </AssociationSet>
+    <AssociationSet Name="FKRcdSalesIt747511" Association="Self.FKRcdSalesIt747511">
+      <End Role="RcdSales" EntitySet="RcdSales" />
+      <End Role="RcdSalesItem" EntitySet="RcdSalesItem" />
+    </AssociationSet>
+    <AssociationSet Name="FKRcdSalesIt995612" Association="Self.FKRcdSalesIt995612">
+      <End Role="LstItem" EntitySet="LstItem" />
+      <End Role="RcdSalesItem" EntitySet="RcdSalesItem" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
